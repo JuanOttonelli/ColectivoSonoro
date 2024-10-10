@@ -1,0 +1,6 @@
+#N canvas 421 50 1313 532 12;
+#X obj 0 0 cnv 15 2000 1000 empty empty empty 20 12 0 14 -232896 -66577
+0;
+#X obj 579 137 bng 800 250 50 0 masterbang empty PRE\$5 230 -50 1 100
+-23 -262144 -262144;
+#X obj 1346 138 todo;

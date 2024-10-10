@@ -1,0 +1,58 @@
+#N canvas 0 0 1903 978 12;
+#X obj 647 663 cnv 15 600 300 empty empty empty 20 12 0 14 -261682
+-66577 0;
+#X obj 688 701 cnv 15 150 40 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X text 703 710 Patch;
+#X text 690 766 Un programa o parche (patch) es una colección de objetos
+conectados por cables.;
+#X obj 694 829 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 694 854 Laboratorio Sonido;
+#X obj 694 885 print;
+#X obj 646 22 cnv 15 600 621 empty empty empty 20 12 0 14 -261682 -66577
+0;
+#X obj 27 343 cnv 15 600 300 empty empty empty 20 12 0 14 -261682 -66577
+0;
+#X obj 27 22 cnv 15 600 300 empty empty empty 20 12 0 14 -261682 -66577
+0;
+#X obj 67 59 cnv 15 150 40 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X text 79 69 Objetos;
+#X text 70 127 Un objeto es una caja rectangular con entradas y salidas
+denominadas inlets y outlets \, representados mediante unas pequeñas
+rayitas negras. Los inlets están en la parte de arriba de la caja
+y los outlets en la parte de abajo. Un objeto realiza un determinado
+proceso a los datos que le entran por sus inlets y envía los resultados
+por sus outlets.;
+#X obj 71 384 cnv 15 150 40 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X text 84 393 Hot/Cold inlets;
+#X obj 76 467 float;
+#X text 134 462 Hot inlet: es el inlet más a la izquierda \, es la
+entrada del objeto que activa el proceso. Cold inlet: es o son (puede
+haber mas de uno)argumentos o entradas adicionales al objeto.;
+#X obj 689 57 cnv 15 230 40 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X text 703 66 Las 3 cajas u objetos básicos;
+#X text 689 113 En Pure Data se usan 3 “cajas” u objetos básicos:
+Objeto \, Mensaje y Número.;
+#X obj 693 176 float;
+#X msg 693 236 10;
+#X floatatom 694 297 5 0 0 0 - - -;
+#X text 746 176 Las cajas de los "objetos" son rectangulares.;
+#X text 746 227 las cajas de los "mensajes" tienen el lado vertical
+derecho distinto de los otros.;
+#X text 749 291 y la caja de los "números" tiene el ángulo superior
+derecho cortado.;
+#X text 693 367 Las conexiones entre los objetos se llaman cuerdas
+o cables. Van desde el outlet de un objeto hasta el inlet de otro.
+Hay 2 tipos de conexión entre las cajas u objetos \, grueso y fino.
+Los cables gruesos transmiten señales de audio \, mientras que los
+cables finos transmiten solo datos. Todos los objetos que producen
+señales o trabajan con señales en su entrada \, tienen el símbolo
+"~” inmediatamente después de su nombre. Los otros objetos no.;
+#X text 694 509 Estos dos niveles se denominan “control level”
+y “signal level”;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;

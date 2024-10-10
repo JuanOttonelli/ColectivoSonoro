@@ -1,0 +1,27 @@
+#N canvas 0 0 1903 978 12;
+#X obj 33 7 cnv 15 160 40 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 32 116 En el modo Edición se programa el patch y en el modo
+Ejecución solamente se interactúa con el patch.;
+#X text 32 174 Para cambiar de un modo a otro se pulsa CTRL+E;
+#X text 47 16 Edición/Ejecución;
+#X text 33 63 En PD existen dos estados o dos modos básicos de funcionamiento:
+Edición y ejecución.;
+#X obj 35 219 cnv 15 160 40 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 47 228 Ayuda/Help;
+#X obj 36 416 *;
+#X text 36 506 En caso de modificar un patch de ayuda \, es conveniente
+salvarlo con un nombre diferente \, de modo de no perder el patch original.
+;
+#X text 37 573 * Al solicitar ayuda sobre el fondo de la ventana (sin
+estar encima de ningún objeto) obtendremos la lista total de objetos
+PD.;
+#X text 34 288 Pure Data tiene un sistema de ayuda con información
+de uso y ejemplos de cada objeto. Se accede mediante click derecho
+en el objeto y seleccionar la opción Ayuda. Se abrirá una nueva ventana
+(patch) que explica la funcionalidad de dicho objeto \, como por ejemplo
+información sobre los inlets y outlets \, argumentos \, mensajes de
+inicialización de objetos \, etc.…;
+#X text 35 461 El patch (patch de ayuda) que contiene esta nueva ventana
+\, se puede editar \, copiar \, modificar \, etc.;
